@@ -24,11 +24,11 @@ $ cd ~/catkin_ws && catkin_make
 
 - Spawning objects in Gazebo 
 ### please add following lines in {your gazebo_world.launch}
-```  
+```shell
 <node name="{node name}" pkg="gazebo_ros" type="spawn_model" args="-file $(find {folder name})/{urdf directory}/{urdf file name.urdf} -urdf -model {model name} -x 0 -y 0 -z 1" />
 ```
 - Examples  
-``` 
+```shell
 <node name="spawn_banana_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find ril_mm_objects)/urdf/banana.urdf -urdf -model banana -x 5 -y 0.5 -z 1.1" />
 ```
 - Launch    
