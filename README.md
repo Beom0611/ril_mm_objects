@@ -14,13 +14,13 @@ This is a package for spawning objects in Gazebo
 
 ## Guide
 
-- For spawn objects 
+- For spawn objects package
 ```
 $ cd ~/catkin_ws/src && git clone https://github.com/Beom0611/ril_mm_objects.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
-- Spawning Objects in gazebo 
+- Spawning objects in Gazebo 
 ### please add following lines in {your gazebo_world.launch}
 ```  
 <node name="{node name}" pkg="gazebo_ros" type="spawn_model" args="-file $(find {folder name})/{urdf directory}/{urdf file name.urdf} -urdf -model {model name} -x 0 -y 0 -z 1" />
