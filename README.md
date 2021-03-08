@@ -5,7 +5,8 @@
 
 
 ## Overview
-This is a package for spawning objects in Gazebo 
+This is a package for spawning objects in Gazebo   
+
 
 
 
@@ -31,9 +32,10 @@ $ cd ~/catkin_ws && catkin_make
 ```
 - Launch    
 ```
-$ roslaunch {your package nmae} {your gazebo_world.launch} 
+$ roslaunch {your package nmae} {your gazebo_world.launch}   
 
-```
+```    
+
 
 
 
