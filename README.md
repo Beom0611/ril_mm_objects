@@ -42,4 +42,4 @@ $ roslaunch {your package nmae} {your gazebo_world.launch}
 
 ## Description    
 
-<img width="500" height="300" src="![spawn_objects](https://user-images.githubusercontent.com/78074831/110319538-62e85900-8052-11eb-919b-e9acde3b5daf.png)"  alt="Screenshot" title="Screenshot">
+<img width="500" height="300" src="https://user-images.githubusercontent.com/78074831/110319538-62e85900-8052-11eb-919b-e9acde3b5daf.png"  alt="Screenshot" title="Screenshot">
