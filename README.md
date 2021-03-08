@@ -2,9 +2,12 @@
  
  
  
- 
+
+
 ## Overview
 This is a package for spawning objects in Gazebo 
+
+
 
 
 
@@ -16,9 +19,6 @@ This is a package for spawning objects in Gazebo
 $ cd ~/catkin_ws/src && git clone https://github.com/Beom0611/ril_mm_objects.git
 $ cd ~/catkin_ws && catkin_make
 ```
-
-
-
 
 - Spawning Objects in gazebo 
 ### please add following lines in {your gazebo_world.launch}
@@ -34,6 +34,8 @@ $ cd ~/catkin_ws && catkin_make
 $ roslaunch {your package nmae} {your gazebo_world.launch} 
 
 ```
+
+
 
 
 
