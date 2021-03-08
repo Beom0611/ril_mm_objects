@@ -1,11 +1,8 @@
 # ril_mm_objects
  
 ## Overview
-This mobile manipulator(UR5 with Robotiq Gripper85 and Husky) tutorial will show you how to operate a mobile manipulator using Gazebo, RViz, MoveIt
+This is a package for spawning objects in Gazebo 
 
-
-
-### 
 
 
 
